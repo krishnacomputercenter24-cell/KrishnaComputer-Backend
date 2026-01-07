@@ -1,0 +1,35 @@
+{
+  "name": "krishna-computer-center-backend",
+  "version": "1.0.0",
+  "description": "Backend",
+  "keywords": [
+    "Backend"
+  ],
+  "homepage": "https://github.com/krishnacomputercenter24-cell/KrishnaComputer-Backend/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishnacomputercenter24-cell/KrishnaComputer-Backend.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cloudinary": "^2.6.1",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.15.0",
+    "multer": "^2.0.0",
+    "nodemailer": "^6.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
